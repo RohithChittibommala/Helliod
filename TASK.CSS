@@ -1,0 +1,433 @@
+.item-1 {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.helliod
+{
+    text-shadow: 0 2px 20px #ffd800;
+}
+
+.brand1 {
+    font-size: 3rem;
+    font-family: 'Baloo Bhaina';
+    color: #ffffff;
+
+}
+
+.SEC-1 {
+    font-family: tarell, 'ubuntu';
+    padding: 4% 7%;
+    background-color: #ef8172;
+}
+
+.SEC-1 button {
+    border: solid 1px black;
+}
+
+/* body will be customised here */
+.sec2 {
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    /* display: flex; */
+    padding: 5% 2% 0%;
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+
+.bike-rider {
+    height: 90%;
+    width: 90%;
+    animation: rider;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.highlight {
+    color: royalblue;
+}
+
+.about {
+    position: relative;
+    align-items: center;
+    font-size: 3.4rem;
+    text-align: left;
+    color: #481380;
+    animation: about;
+    animation-duration: 2s;
+
+}
+
+
+.we {
+    position: relative;
+    align-items: center;
+    text-align: left;
+    animation: we;
+    font-size: 1.8rem;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.hire {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: hire;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    /* z-index: -5; */
+    /* filter: blur(4px ); */
+}
+
+.hire:hover {
+    background: #ffc60b;
+    box-shadow: 10px 10px 50px #ffc60b;
+    border: none;
+    z-index: 1;
+    filter: blur(0px);
+}
+/* SEC 3 cards are customised */
+.sec3
+{
+    background: #50d890;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 4% 5%;
+}
+.cardhead
+{
+background: silver;
+}
+.cardhead i{
+    opacity: 0.3;
+    transition: 0.5s;
+
+}
+
+.cardhead i:hover
+{
+    /* color: orange; */
+    opacity: 1;
+}
+.icon
+{
+    color: #a8e6cf;
+    padding: 2%;
+    margin: 3%;
+}
+.service
+{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 5%;
+}
+.card
+{
+    animation: card; 
+    animation-duration: 2s;
+    transition-duration: 1s;  
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
+}
+.bgcard
+{
+    background-color: #ffd800;
+}
+.card:hover
+{
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
+    transform: rotateZ(40deg);
+}
+.sec4
+{
+    padding: 4% 5%;
+}
+.shirt-image
+{
+    padding: 2% 3%;
+    border-right: dotted orange;
+    border-bottom: dotted orange;
+    height: 90%;
+    width: 90%;
+    /* background: #fab696; */
+}
+.hireheading
+{
+    font-family: 'Hind Madurai', sans-serif;
+font-family: 'Concert One', cursive;
+text-align: left;
+    font-size: 3.5rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-left: 3.5%;
+}
+.des
+{
+    margin:10% 5% 0%  5%;
+}
+.c-heading
+{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-weight: 900;
+    color: blue;
+}
+.bodyc
+{
+    text-align: left;
+    text-shadow: aquamarine;
+}
+.des p
+{
+    font-size:1.1rem;
+    font-weight: 400;
+    color: grey;
+}
+.hireme
+{
+    height: 45px;
+    width: 130px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #ffc60b;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin:10% 5%;
+}
+.hireme:hover
+{
+    box-shadow: 0 0px 50px #ffbaba;
+
+}
+/* #SEC5 */
+
+.sec5
+{
+    padding: 4% 5% 0% 5%;
+    background-color: #fff8fff8;
+}
+.sec5 h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+color: #0f4c81;
+
+}
+.clipboard
+{
+color: #ffe75e;
+margin: 0 2% 0 2%;
+}
+.sec5 p
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: grey;
+}
+.collab
+{
+    height: 70%;
+    /* border: dotted 1px orange; */
+}
+.c
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #sec6 starts here */
+.sec6
+{
+    padding: 4% 9% 0% 9%;
+    /* background-color: #f5f8dfff; */
+}
+.sec6 h2
+{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Baloo Bhaina';
+    color: #333333;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.next
+{
+    margin-top: 3%;
+}
+.circle
+{
+    color: yellow;
+    margin-right: 10px;
+}
+.price h3
+{
+    margin:5%;
+    font-family: 'Baloo Bhaina';
+}
+.price p{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+.price:hover
+{
+    border: dotted orange;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+.hover:hover
+{
+    color: orange;
+}
+
+.dollar span
+{
+   font-size: 2.5rem;
+   /* font-family: 'Ultra', serif; */
+   font-weight: 900;
+   margin: 5%;
+   color: #ef8172;
+}
+.sec7
+{
+    padding: 4% 9% 0% 9%;
+    background-color: #f4eeff;
+
+}
+.sec7 h2
+{
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: 'Catamaran', sans-serif;
+font-size: 3.0rem;
+}
+.sec7 p
+{
+    color: lightslategray;
+     font-family: 'Montserrat', sans-serif;
+}
+.sec8
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 10vh;
+}
+.conver
+{
+    width: 60%;
+    margin-top: 5%;
+}
+.form span
+{
+    margin:5% ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    /* border: 1px solid black; */
+}
+.form input
+{
+    border-radius: 8px;
+    margin-bottom:5% ;
+    border: none;
+    text-align: center;
+}
+.sec7 button
+{
+  background-color: red;
+    font-family: 'Montserrat',sans-serif;
+}
+/* KEY FRAMES */
+@keyframes we {
+    0% {
+        left: -1000px;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        left: 0;
+        rotate: (360deg);
+    }
+
+}
+
+@keyframes about {
+    0% {
+        top: -1000px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes hire {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@keyframes rider
+{
+    /* 0%{ transform: rotateX(360deg);} */
+    0%{ transform: rotatey(180deg);}
+    100%{ transform: rotate(0deg);}
+}
+@keyframes card
+{
+    0%
+    {
+        opacity: 0;
+        left: -1000px;
+        top:-100px;
+    }
+    50%
+    {
+        opacity: 0.5;
+        left: -20px;
+        top:-20px;
+    }
+    100%
+    {
+        opacity: 1;
+        left: 0px;
+        top:00px;
+    }
+
+}
+@media(max-width:455px)
+{
+
+
+    .hireheading
+    {
+        font-size: 2.3rem;
+    }
+    .sec7 span
+    {
+        display: block;
+    }
+    .card
+    {
+        padding:10%;
+    }
+    body
+    {
+/* padding: 1%; */
+    }
+    .collab
+    {
+        display: none;
+    }
+    .sec6
+    {
+        margin-top:20px ;
+    }
+    .we
+    {
+        padding: 5%;
+    }
+    .about
+    {
+        padding: 5%;
+    }
+}
